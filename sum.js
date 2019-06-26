@@ -1,6 +1,6 @@
 const sum = (a, b) => {
     return a + b;
-  }
+}
 
 const uuidv4 = require('uuid/v4');
 const uuid = () => {
@@ -8,3 +8,8 @@ const uuid = () => {
 }
 
 module.exports = { sum, uuid };
+
+
+// npm run test
+// npm run test sum  
+// yarn test sum
